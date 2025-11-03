@@ -20,4 +20,5 @@ fastapi==0.115.0
 uvicorn==0.30.6
 twilio==9.3.3
 uvicorn[standard]
-gunicorn
+gunicornpymongo[srv]
+pymongo[srv]
