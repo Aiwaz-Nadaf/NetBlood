@@ -1,0 +1,9 @@
+{
+  "builds": [
+    { "src": "requirements.txt", "use": "@vercel/python" }
+  ],
+  "devCommand": "gunicorn --bind 0.0.0.0:$PORT app:app",
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ]
+}
