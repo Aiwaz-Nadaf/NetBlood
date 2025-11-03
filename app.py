@@ -21,7 +21,6 @@ from utils import (
     format_datetime, sanitize_filename, logger
 )
 import time
-import pywhatkit
 import google.generativeai as genai
 from translate import Translator
 from werkzeug.security import generate_password_hash, check_password_hash
